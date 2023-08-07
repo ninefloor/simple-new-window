@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Simple New Window",
+  "description": "주소창만 있는 새 창을 띄워주는 크롬 확장 프로그램입니다.",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": { "default_title": "새로운 창으로 띄우기" }
+}
